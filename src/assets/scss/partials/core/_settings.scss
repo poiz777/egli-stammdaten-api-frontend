@@ -1,0 +1,138 @@
+@import "settings-global";
+
+// COLORS: THEME SUCCESS
+$egl-success-black:                           $egl-global-black;
+$egl-success-white:                           $egl-global-white;
+$egl-success-bright-green:                    rgba(96, 255, 0, 1);
+$egl-success-new-entity-btn-bg:               rgba(127, 181, 44, 1);
+$egl-success-new-entity-btn-bdr-col:          rgba(169, 226, 82, 1);
+$egl-success-pagination-slot-bg:              rgba(126, 176, 58, 0.8);
+$egl-success-pagination-slot-bdr-col:         rgba(0, 136, 0, 0.7);
+$egl-success-pagination-slot-color:           rgba(40, 70, 0, 1);
+$egl-success-pagination-slot-color-hvr:       rgba(40, 70, 0, 1);
+$egl-success-pagination-slot-bg-hvr:          rgb(244, 225, 154);
+$egl-success-pagination-slot-bdr-col-hvr:     rgb(202, 173, 66);
+$egl-success-pagination-ellipses-bg-hvr:      rgba(233, 247, 215, 0.8);
+$egl-success-pagination-ellipses-bdr-col-hvr: rgba(0, 136, 0, 0.4);
+$egl-success-pagination-wrapper-bg:           rgba(215, 234, 194, 1);
+$egl-success-pagination-wrapper-bdr-col:      rgba(146, 190, 99, 1);
+
+
+// COLORS: THEME CONSERVATIVE
+$egl-conservative-black:                            $egl-global-black;
+$egl-conservative-white:                            $egl-global-white;
+$egl-conservative-bright-green:                     rgb(167, 168, 166);
+$egl-conservative-new-entity-btn-bg:                rgb(118, 120, 126);
+$egl-conservative-new-entity-btn-bdr-col:           rgb(16, 16, 16);
+$egl-conservative-pagination-slot-bg:               rgba(168, 169, 176, 0.8);
+$egl-conservative-pagination-slot-bdr-col:          rgba(129, 127, 136, 0.7);
+$egl-conservative-pagination-slot-color:            rgb(68, 70, 70);
+$egl-conservative-pagination-slot-color-hvr:        rgb(68, 70, 69);
+$egl-conservative-pagination-slot-bg-hvr:           rgb(244, 225, 154);
+$egl-conservative-pagination-slot-bdr-col-hvr:      rgb(202, 173, 66);
+$egl-conservative-pagination-ellipses-bg-hvr:       rgba(233, 247, 215, 0.8);
+$egl-conservative-pagination-ellipses-bdr-col-hvr:  rgba(136, 128, 136, 0.4);
+$egl-conservative-pagination-wrapper-bg:            rgb(232, 227, 234);
+$egl-conservative-pagination-wrapper-bdr-col:       rgb(185, 182, 190);
+
+
+
+// ## FORM CONTROL COLORS: THEME SUCCESS
+$egl-success-form-ctrl-color:                 rgba(23, 121, 27, 1);
+$egl-success-form-ctrl-bdr-color:             rgba(46, 125, 50, 1);
+$egl-success-form-ctrl-label-bg:              rgba(182, 195, 167, 0.4);
+$egl-success-form-ctrl-label-bdr-col:         rgba(49, 125, 50, 0.5);
+$egl-success-form-grp-wrapper-bg:             rgba(189, 210, 167, 0.38);
+$egl-success-form-grp-wrapper-bdr-col:        rgba(0, 128, 0, 0.26);
+
+// ## FORM CONTROL COLORS: THEME CONSERVATIVE
+$egl-conservative-form-ctrl-color:            rgb(118, 118, 121);
+$egl-conservative-form-ctrl-bdr-color:        rgb(122, 119, 125);
+$egl-conservative-form-ctrl-label-bg:         rgba(190, 187, 195, 0.4);
+$egl-conservative-form-ctrl-label-bdr-col:    rgba(120, 119, 125, 0.5);
+$egl-conservative-form-grp-wrapper-bg:        rgba(208, 206, 210, 0.38);
+$egl-conservative-form-grp-wrapper-bdr-col:   rgba(128, 122, 128, 0.26);
+
+
+
+// ## HEADINGS COLORS: THEME SUCCESS
+$egl-success-headings-bg-1:                   rgba(126, 176, 58, 1);
+$egl-success-headings-bg-2:                   rgba(155, 192, 107, 0.7);
+
+// ## HEADINGS COLORS: THEME CONSERVATIVE
+$egl-conservative-headings-bg-1:              rgb(173, 172, 176);
+$egl-conservative-headings-bg-2:              rgba(188, 184, 192, 0.7);
+
+
+// ## TABLE ROWS COLORS: THEME SUCCESS
+$egl-success-tr-even-bg-col:                  rgba(247, 255, 236, 0.84);
+$egl-success-tr-odd-bg-col:                   rgba(241, 255, 222, 0.73);
+$egl-success-headings-bdr-col:                rgba(81, 115, 35, 1);
+$egl-success-tr-bdr-col:                      rgba(128, 176, 66, 0.51);
+$egl-success-tr-bdr-col-2:                    rgba(74, 125, 5, 0.51);
+$egl-success-tr-bdr-col-3:                    rgba(117, 150, 50, 1);
+$egl-success-tr-even-bg-col-2:                rgba(198, 203, 191, 0.75);
+$egl-success-tr-odd-bg-col-2:                 rgba(238, 244, 230, 0.75);
+$egl-success-th-bg:                           rgba(255, 214, 112, 0.66);
+$egl-success-nav-menu-bg:                     rgba(113, 168, 39, 0.9);
+$egl-success-nav-menu-color:                  rgba(113, 168, 39, 0.9);
+$egl-success-nav-menu-bdr-col:                rgba(113, 168, 39, 0.9);
+$egl-success-nav-sub-menu-color-hvr:          rgb(81, 127, 33);
+$egl-success-nav-menu-main-bg:                rgba(246, 255, 237, 0.72);
+$egl-success-nav-menu-main-bdr-col:           rgba(0, 69, 0, 0.62);
+$egl-success-nav-menu-main-color:             rgba(20, 102, 0, 1);
+$egl-success-form-container-bg:               rgba(247, 255, 236, 0.83);    // rgba(231, 255, 199, 0.73);//
+$egl-success-form-container-bdr-col:          rgba(123, 148, 80, 1);
+// $egl-success-nav-sub-menu-bdr-col-hvr:        rgb(81, 127, 33);
+
+// ## TABLE ROWS COLORS: THEME CONSERVATIVE
+$egl-conservative-tr-even-bg-col:             rgba(242, 240, 255, 0.84);
+$egl-conservative-tr-odd-bg-col:              rgba(245, 245, 255, 0.73);
+$egl-conservative-headings-bdr-col:           rgb(110, 110, 115);
+$egl-conservative-tr-bdr-col:                 rgba(176, 169, 173, 0.51);
+$egl-conservative-tr-bdr-col-2:               rgba(122, 121, 125, 0.51);
+$egl-conservative-tr-bdr-col-3:               rgb(149, 149, 150);
+$egl-conservative-tr-even-bg-col-2:           rgba(194, 192, 203, 0.75);
+$egl-conservative-tr-odd-bg-col-2:            rgba(241, 244, 244, 0.75);
+$egl-conservative-th-bg:                      rgba(244, 243, 255, 0.66);
+$egl-conservative-nav-menu-bg:                rgba(166, 160, 168, 0.9);
+$egl-conservative-nav-menu-color:             rgba(163, 160, 168, 0.9);
+$egl-conservative-nav-menu-bdr-col:           rgba(163, 150, 168, 0.9);
+$egl-conservative-nav-sub-menu-color-hvr:     rgb(121, 116, 127);
+$egl-conservative-nav-menu-main-bg:           rgba(244, 239, 255, 0.72);
+$egl-conservative-nav-menu-main-bdr-col:      rgba(68, 66, 69, 0.62);
+$egl-conservative-nav-menu-main-color:        rgb(0, 0, 0);
+$egl-conservative-form-container-bg:          rgba(255, 255, 255, 0.83);
+$egl-conservative-form-container-bdr-col:     rgba(145, 139, 148, 1);
+
+
+// MULTI-LANG INDICATOR COLORS:  THEME SUCCESS
+$egl-success-multi-lang-ind-color:            rgba(0, 20, 105, 1);
+$egl-success-multi-lang-ind-bg:               rgba(241, 226, 255, 1);
+
+// MULTI-LANG INDICATOR COLORS:  THEME CONSERVATIVE
+$egl-conservative-multi-lang-ind-color:       rgba(0, 20, 105, 1);
+$egl-conservative-multi-lang-ind-bg:          rgba(241, 226, 255, 1);
+
+
+// ## OVERWRITTEN BOOTSTRAP WELL COLORS: THEME SUCCESS
+$egl-success-well-bg: rgba(179, 179, 179, 0.62);
+$egl-success-well-bdr-col:                    rgba(155, 192, 107, 0.48);
+
+// ## OVERWRITTEN BOOTSTRAP WELL COLORS: THEME CONSERVATIVE
+$egl-conservative-well-bg:                    rgba(241, 237, 249, 0.62);
+$egl-conservative-well-bdr-col:               rgba(186, 186, 192, 0.48);
+
+
+
+
+
+
+// ## STYLES - EG TEXT-SHADOWS, BOX-SHADOWS, TRANSITIONS, ETC,
+$egl-success-headings-txt-shd:                1px 1px 0 rgba(0, 0, 0, 0.5);
+$egl-success-well-box-shd:                    inset 0 1px 1px rgba(0,0,0,.05);
+
+
+// ## STYLES - EG TEXT-SHADOWS, BOX-SHADOWS, TRANSITIONS, ETC,
+$egl-conservative-headings-txt-shd:           1px 1px 0 rgba(0, 0, 0, 0.5);
+$egl-conservative-well-box-shd:               inset 0 1px 1px rgba(0,0,0,.05);

@@ -1,0 +1,59 @@
+@import "./partials/core/settings";
+@import "./partials/core/mixins";
+@import "./partials/core/templates";
+
+.pz-switch-wrapper{
+  display: inline-block;
+  transition: transform .2s;
+  transform: scale(1);
+  margin-top: 1em;
+
+  .pz-switch-track{
+    width: 40px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.75s;
+
+    .pz-switch-knob{
+      height: 15px;
+      width: 15px;
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 20px;
+      transition: all 0.75s;
+      cursor: pointer;
+      &.on{
+        margin-left: calc(50% + 4px);
+      }
+    }
+
+  }
+
+  &.on{
+    .pz-switch-track{
+      background: #b6fa02;
+      border-color: #6ad26b;
+
+      .pz-switch-knob{
+        background: #f8f4ff;
+        border-color: #6ad26b;
+        margin-left: calc(50% + 4px);
+      }
+
+    }
+  }
+
+  &.off{
+    .pz-switch-track{
+      background: #fa0400;
+      border-color: #ca0b00;
+
+      .pz-switch-knob{
+        background: #f8f4ff;
+        border-color: #7d8484;
+      }
+    }
+
+  }
+}

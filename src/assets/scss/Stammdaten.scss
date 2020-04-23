@@ -1,0 +1,45 @@
+@import "partials/core/settings";
+@import "partials/core/mixins";
+@import "partials/core/templates";
+
+
+
+body{
+  /*
+  font-family: 'Dosis', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  //background-image: url("./../img/lettuces_001.jpg");
+  //background-image: url("./../img/AdobeStock_196317494.jpg");
+   */
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 120px;
+  font-size: 1.75em;
+  &.theme-success{
+    font-family: 'PT Sans Narrow', 'Dosis', sans-serif;
+    color: #284600;
+    background: rgba(183, 236, 183, 0.3);
+    @import "themes/success/success";
+  }
+  &.theme-conservative{
+    font-family: 'PT Sans Narrow', 'Dosis', sans-serif;
+    color: #1f1f1f;
+    background: rgba(162, 162, 162, 0.3);
+    @import "themes/conservative/conservative";
+
+  }
+  &.theme-joyous{
+    font-family: 'PT Sans Narrow', 'Dosis', sans-serif;
+    color: #8b3f87;
+    background: rgba(247, 197, 249, 0.44);
+    @import "themes/joyous/joyous";
+  }
+
+  #theme {
+    margin-top: 7px;
+    opacity: 0.5;
+  }
+}

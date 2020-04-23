@@ -1,0 +1,310 @@
+{
+  "Menu" : {
+    "basisDaten"  : {
+      "menuName"    : "BasisDaten",
+      "iconClass"   : "fa-database",
+      "svgIcons"    : {"flat":  "@/basisdaten-flat.svg", "active":  "@/basisdaten-active.svg"},
+
+      "abteilung" : {
+        "className" : "Abteilung",
+        "title"     : {"singular":  "Abteilung", "plural":  "Abteilungen"},
+        "model"     : "../../models/Abteilung.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/abteilung/list",
+          "edit"  : "/abteilung/edit/id",
+          "new"   : "/abteilung/create"
+        }
+      },
+
+      "qualitaet" : {
+        "className": "Qualitaet",
+        "title"     : {"singular":  "Qualität", "plural":  "Qualitäten"},
+        "model"     : "../../models/Qualitaet.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/qualitaet/list",
+          "edit"  : "/qualitaet/edit/id",
+          "new"   : "/qualitaet/create"
+        }
+      },
+
+      "label" : {
+        "className": "Label",
+        "title"     : {"singular":  "Label", "plural":  "Labels"},
+        "model"     : "../../models/Label.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/label/list",
+          "edit"  : "/label/edit/id",
+          "new"   : "/label/create"
+        }
+      },
+
+      "labelvariante" : {
+        "className" : "LabelVariante",
+        "title"     : {"singular":  "LabelVariante", "plural":  "LabelsVarianten"},
+        "model"     : "../../models/LabelVariante.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/label-variante/list",
+          "edit"  : "/label-variante/edit/id",
+          "new"   : "/label-variante/create"
+        }
+      },
+
+      "preisgruppe" : {
+        "className" : "Preisgruppe",
+        "title"     : {"singular":  "Preisgruppe", "plural":  "Preisgruppen"},
+        "model"     : "../../models/Preisgruppe.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/preisgruppe/list",
+          "edit"  : "/preisgruppe/edit/id",
+          "new"   : "/preisgruppe/create"
+        }
+      },
+
+      "ruestplatz" : {
+        "className" : "Ruestplatz",
+        "title"     : {"singular":  "Rüstplatz", "plural":  "Rüstplätze"},
+        "model"     : "../../models/Ruestplatz.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/ruestplatz/list",
+          "edit"  : "/ruestplatz/edit/id",
+          "new"   : "/ruestplatz/create"
+        }
+      },
+
+      "einheit" : {
+        "className" : "Einheit",
+        "title"     : {"singular":  "Einheit", "plural":  "Einheiten"},
+        "model"     : "../../models/Einheit.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/einheit/list",
+          "edit"  : "/einheit/edit/id",
+          "new"   : "/einheit/create"
+        }
+      }
+    },
+
+    "sorten"  : {
+      "menuName"    : "Sorten",
+      "iconClass"   : "fa-sitemap",
+      "svgIcons"    : {"flat":  "@/sorte-flat.svg", "active":  "@/sorte-active.svg"},
+
+      "sorte" : {
+        "className" : "Sorte",
+        "title"     : {"singular":  "Sorte", "plural":  "Sorten"},
+        "model"     : "../../models/Sorte.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/sorte/list",
+          "edit"  : "/sorte/edit/id",
+          "new"   : "/sorte/create"
+        }
+      },
+
+      "variant" : {
+        "className" : "SorteVariante",
+        "title"     : {"singular":  "Sorte Variante", "plural":  "Sorten Varianten"},
+        "model"     : "../../models/SorteVariante.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/sorte-variante/list",
+          "edit"  : "/sorte-variante/edit/id",
+          "new"   : "/sorte-variante/create"
+        }
+      },
+
+      "mischung" : {
+        "className" : "MischungSorteKomponente",
+        "title"     : {"singular":  "Mischung", "plural":  "Mischungen"},
+        "model"     : "../../models/MischungSorteKomponente.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/mischung-sorte-komponente/list",
+          "edit"  : "/mischung-sorte-komponente/edit/id",
+          "new"   : "/mischung-sorte-komponente/create"
+        }
+      }
+    },
+
+    "verpackungen"  : {
+      "menuName"    : "Verpackungen",
+      "iconClass"   : "fa-dropbox",
+      "svgIcons"    : {"flat":  "@/verpackungen-flat.svg", "active":  "@/verpackungen-active.svg"},
+
+      "verpackung" : {
+        "className": "Verpackung",
+        "title"   : {"singular":  "Verpackung", "plural":  "Verpackungen"},
+        "model"     : "../../models/Verpackung.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/verpackung/list",
+          "edit"  : "/verpackung/edit/id",
+          "new"   : "/verpackung/create"
+        }
+      },
+
+      "varianten" : {
+        "className" : "VerpackungVariante",
+        "title"     : {"singular":  "Variante", "plural":  "Varianten"},
+        "model"     : "../../models/VerpackungVariante.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/verpackung-variante/list",
+          "edit"  : "/verpackung-variante/edit/id",
+          "new"   : "/verpackung-variante/create"
+        }
+      },
+
+      "komponenten" : {
+        "className" : "VerpackungKomponente",
+        "title"     : {"singular":  "Komponente", "plural":  "Komponenten"},
+        "model"     : "../../models/VerpackungKomponente.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/verpackung-komponente/list",
+          "edit"  : "/verpackung-komponente/edit/id",
+          "new"   : "/verpackung-komponente/create"
+        }
+      }
+    },
+
+    "artikeldaten"  : {
+      "menuName"    : "Artikeldaten",
+      "iconClass"   : "fa-shopping-bag",
+      "svgIcons"    : {"flat":  "@/artikeldaten-flat.svg", "active":  "@/artikeldaten-active.svg"},
+
+      "artikel": {
+        "className" : "Artikel",
+        "title"     : {"singular":  "Artikel", "plural":  "Artikeln"},
+        "model"     : "../../models/Artikel.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/artikel/list",
+          "edit"  : "/artikel/edit/id",
+          "new"   : "/artikel/create"
+        }
+      },
+
+      "artikelgruppe" : {
+        "className" : "Artikelgruppe",
+        "title"     : {"singular":  "Artikelgruppe", "plural":  "Artikelgruppen"},
+        "model"     : "../../models/Artikelgruppe.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/artikelgruppe/list",
+          "edit"  : "/artikelgruppe/edit/id",
+          "new"   : "/artikelgruppe/create"
+        }
+      },
+
+      "verkaufseinheit" : {
+        "className" : "Verkaufseinheit",
+        "title"     : {"singular":  "Verkaufseinheit", "plural":  "Verkaufseinheiten"},
+        "model"     : "../../models/Verkaufseinheit.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/verkaufseinheit/list",
+          "edit"  : "/verkaufseinheit/edit/id",
+          "new"   : "/verkaufseinheit/create"
+        }
+
+      },
+
+      "lieferstatus" : {
+        "className" : "Lieferstatus",
+        "title"     : {"singular":  "Lieferstatus", "plural":  "Lieferstatus"},
+        "model"     : "../../models/Lieferstatus.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/lieferstatus/list",
+          "edit"  : "/lieferstatus/edit/id",
+          "new"   : "/lieferstatus/create"
+        }
+      }
+    },
+
+    "adressen"  : {
+      "menuName"    : "Adressen",
+      "iconClass"   : "fa-address-card",
+      "svgIcons"    : {"flat":  "@/artikeldaten-flat.svg", "active":  "@/artikeldaten-active.svg"},
+
+      "adresse" : {
+        "className" : "Adresse",
+        "title"     : {"singular":  "Adresse", "plural":  "Adressen"},
+        "model"     : "../../models/Adresse.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/adresse/list",
+          "edit"  : "/adresse/edit/id",
+          "new"   : "/adresse/create"
+        }
+      },
+
+      "debitor" : {
+        "className" : "Debitor",
+        "title"     : {"singular":  "Debitor", "plural":  "Debitoren"},
+        "model"     : "../../models/Debitor.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/debitor/list",
+          "edit"  : "/debitor/edit/id",
+          "new"   : "/debitor/create"
+        }
+      },
+
+      "kreditor" : {
+        "className": "Kreditor",
+        "title"   : {"singular":  "Kreditor", "plural":  "Kreditoren"},
+        "model"     : "../../models/Kreditor.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/kreditor/list",
+          "edit"  : "/kreditor/edit/id",
+          "new"   : "/kreditor/create"
+        }
+      },
+
+      "produzent" : {
+        "className" : "Produzent",
+        "title"     : {"singular":  "Produzent", "plural":  "Produzenten"},
+        "model"     : "../../models/Produzent.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/produzent/list",
+          "edit"  : "/produzent/edit/id",
+          "new"   : "/produzent/create"
+        }
+      },
+
+      "verbindung" : {
+        "className" : "Verbindung",
+        "title"     : {"singular":  "Verbindung", "plural":  "Verbindungen"},
+        "model"     : "../../models/Verbindung.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/verbindung/list",
+          "edit"  : "/verbindung/edit/id",
+          "new"   : "/verbindung/create"
+        }
+      },
+
+      "land" : {
+        "className" : "Land",
+        "title"     : {"singular":  "Land", "plural":  "Länder"},
+        "model"     : "../../models/Land.js",
+        "component" : "../../components/ModelRenderer/index.js",
+        "routes"    : {
+          "list"  : "/land/list",
+          "edit"  : "/land/edit/id",
+          "new"   : "/land/create"
+        }
+      }
+    }
+  }
+}
